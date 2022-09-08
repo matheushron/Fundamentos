@@ -1,0 +1,22 @@
+//par nome valor
+const saudacao = 'olá' //contxto lexico 1
+
+function exec(){
+    const saudacao = 'oe'
+    return saudacao
+}
+
+//Objetos são grupos aninhados de pares nome/valor
+const cliente = {
+    nome: 'Pedro',
+    idade:32,
+    peso:90,
+    endereco:{
+        logradouro: 'rua lourenço prado',
+        numero:'209'
+    }   
+}
+console.log(saudacao)
+console.log(exec)
+console.log(cliente)
+console.log(typeof cliente)
